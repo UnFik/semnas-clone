@@ -1,0 +1,67 @@
+.logo-brand{
+    width: 24%;
+}
+
+.nav-item{
+    margin-left: 1em;
+    font-size: 0.7em;
+}
+
+.sub-hero{
+    box-sizing: content-box;
+    height: 100px;
+}
+
+.hero-container{
+    height: 450px;
+}
+
+.footer-hero{
+    height: 70px;
+}
+
+.foot-text{
+    bottom: 100px;
+}
+
+.text-title{
+    color: #1E276F;
+}
+.head-color{
+    background-color: #5E30DD;
+    color: white;
+}
+
+.sub-table{
+    border: 3px solid purple;
+}
+
+/* important dates */
+.title-date{
+    background-color: #631ECC;
+    border-radius: 10px;
+}
+
+.logo-title{
+    width: 80%;
+}
+
+.content-container-left{
+    background-color: #CFDEFF;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.date-content{
+    margin-top: 20px;
+}
+
+.dates{
+    background-color: #FFE4DB;
+    border-radius: 10px;
+}
+
+.sub-dates{
+    opacity: 50%;
+    margin-left: 18px;
+}

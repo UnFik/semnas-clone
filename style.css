@@ -1,0 +1,293 @@
+html{
+    height: 0px;
+}
+
+.card-img{
+    /* clip-path: inset(0px 0px 71% 0px); */
+    left: -1px;
+    min-width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: 0 7%;
+    filter: brightness(40%);
+    /* top right bottom left */
+}
+
+.logo-brand{
+    margin-left: 20px;
+    width: 350px;
+}
+
+.nav-link{
+    font-family: 'Red Rose', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-item{
+    padding: 0 13px;
+}
+
+.card-img-overlay{
+    position: absolute;
+}
+
+.hero-title{
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 3.1em;
+}
+
+.hero-subtitle{
+    font-family: 'Barlow', sans-serif;
+    font-size: 22.4px;
+    font-weight: 500;
+}
+
+.btn-hero{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: #fff;
+    background-color: #643ADA;
+    padding: 10px 35px;
+    border-radius: 4px;
+}
+
+.sub-hero{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #031657;
+}
+
+.foot-text{
+    padding: 20px;
+}
+
+#presenter{
+    background-color: #F8F6FF;
+    /* height: 1120px; */
+}
+
+.title-presenter{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 1.6em;
+    color: #1E276D;
+    font-size: 2.2em;
+}
+
+.table-container{
+    width: 70%;
+}
+
+.head-color{
+    background-color: #5E30DD;
+    margin: auto;
+    font-weight: 100;
+}
+
+tr{
+    height: 80px;
+}
+
+td, tr, th{
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #F7F6FB;
+}
+
+.sub-table{
+    border: 2px solid #D35DD5;
+}
+
+#important-date{
+    padding-top: 4em;
+    /* background-color: red; */
+    height: 70em;
+}
+
+.title-date{
+    background-color: #631ECC;
+    border-radius: 10px;
+}
+
+.logo-title{
+    width: 80%;
+}
+
+.content-container-left{
+    background-color: #CFDEFF;
+    box-sizing: content-box;
+    border-radius: 10px;
+}
+
+.date-content{
+    margin-top: 20px;
+}
+
+.dates{
+    background-color: #FFE4DB;
+    border-radius: 10px;
+}
+
+.sub-dates{
+    opacity: 50%;
+    margin-left: 18px;
+}
+
+#scope{
+    background-color: #F8F6FF;
+
+}
+
+.scope-title{
+    color: #1E276D;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.card-title-scope{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+i{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.physics{
+    color: orange;
+
+}
+
+.chemistry{
+    color: purple;
+}
+
+.keynote-title{
+    font-family: 'Barlow', sans-serif;
+    font-size: 38px;
+    color: #1E276D;
+    font-weight: 600;
+}
+
+.card-keynote{
+    padding-top: 30px;
+}
+
+.card-title-keynote{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.prof-img{
+    border-radius: 50%;
+    width: 110px;
+    margin: auto;
+}
+
+.card-subtitle{
+    letter-spacing: 3px;
+    opacity: 50%;
+}
+
+.keynote-desc{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5em;
+}
+
+#workshop{
+    background-color: #F7F6FB;
+}
+
+.patop{
+    padding-top: 5em;
+}
+
+.workshop-title{
+    color: #631ECC;
+    font-family: "Barlow", Sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.workshop-desc{
+    font-family: "Barlow", Sans-serif;
+    font-size: 15px;
+}
+
+.card-title-workshop{
+    font-size: 16px;
+    font-family: "Barlow", Sans-serif;
+    font-weight: 700;
+}
+
+.subtitle-workshop{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.text-workshop{
+    color: #031657;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.mabot{
+    padding-bottom: 7em;
+}
+
+#footer{
+    background-color: #BDC7EA;
+}
+
+.footer-text{
+    color: #031657;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+
+.smics-img{
+    margin-top: 130px;
+    width: 77%;
+}
+
+.pelindo-img{
+    width: 53%;
+}
+
+.supp-img{
+    width: 62%;
+}
+
+.visit-img{
+    margin-top: 174px;
+}
+
+.sub-footer{
+    background-color: #07062D;
+}
+
+
+
+

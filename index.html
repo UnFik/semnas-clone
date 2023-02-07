@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- My Style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Poppins:wght@400;500;600&family=Montserrat:wght@100;200;300;500&family=Red+Rose:wght@300;400;500;600&family=Saira+Stencil+One&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/0958c69058.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card text-center">
+        <!-- Banner Section-->
+        <img src="Media/monas.jpg" width="100%" class="card-img w-100 rounded-0" alt="...">
+
+
+        <div class="card-img-overlay">
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg bg-transparent">
+                <div class="container-fluid">
+                    <img class="logo-brand" src="media/logosmics.png" alt="logo" />
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">COMMITTEE</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    CONFERENCE
+                                </a>
+                                <ul class="dropdown-menu btn btn-dark">
+                                    <li><a class="dropdown-item" href="#">Conference</a></li>
+                                    <div class="dropdown-divider"></div>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Peer Review Process</a>
+                                    </li>
+                                    <div class="dropdown-divider"></div>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Download Book of Abstract
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Workshop</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    PREVIOUS SMIC
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">SMIC 2018</a></li>
+                                    <li><a class="dropdown-item" href="#">SMIC 2020</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    DOWNLOAD
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT US</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+            <!-- Hero -->
+            <h1 class="hero-title w-50 fw-bold mx-auto mt-5 text-white">
+                Science and Mathematics International Conference 2022
+            </h1>
+            <p class="hero-subtitle card-text mt-4 text-white">Wednesday, 7 September 2022</p>
+            <div class="btn btn-hero btn-lg mt-5">REGISTER HERE</div>
+
+        </div>
+
+        <!-- Sub-Hero -->
+        <div class="sub-hero container-fluid footer-hero ">
+            <p class="align-self-center foot-text my-auto text-white text-center">
+                Paper review : 15 October - 19 November 2022 || Paper submission to AIP : 19 November 2022 || Predicted
+                paper
+                publish : January 2023
+            </p>
+        </div>
+    </div>
+
+
+
+    <!-- Presenter Section -->
+    <section id="presenter">
+        <div class="h1 title-presenter text-center">
+            The best presenter on SMIC 2022
+        </div>
+
+        <!-- Table -->
+        <div class="table-container container mx-auto mt-5">
+            <table class="table table-striped">
+                <thead class="head-color text-white text-start">
+                    <tr>
+                        <th scope="col">Field</th>
+                        <th scope="col">Code of Presenter</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Affiliation</th>
+                        <th scope="col">Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Physics</th>
+                        <td>ABS-102</td>
+                        <td>Ishfahani Rusyda</td>
+                        <td>Universitas Gadjah Mada</td>
+                        <td>
+                            Constraining f(R)f(R) Gravity Models with The Late-Time
+                            Cosmological Evolution
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Physics Education</th>
+                        <td>ABS-43</td>
+                        <td>Siti Masfuah</td>
+                        <td>Universitas Muara Kudus</td>
+                        <td>
+                            Content Validity of Self-Assessment to Measure Technological
+                            Pedagogy Content Knowledge (TPACK) College Students
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Biology Education</th>
+                        <td>ABS-43</td>
+                        <td>Ika Lestari</td>
+                        <td>Universitas Negeri Jakarta</td>
+                        <td>
+                            Learning Loss Analysis on Science Literacy for Elementary School
+                            Students in the Covid-19 Pandemic
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Biology</th>
+                        <td>ABS-43</td>
+                        <td>Aryanny Binti Nasir</td>
+                        <td>Universiti Teknologi Malaysia</td>
+                        <td>
+                            Fabrication and Characterization of Cellulose Acetate Nanofiber
+                            Derived from Rice Husk as Potential Wound Dressing Material
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mathematics</th>
+                        <td>ABS-33</td>
+                        <td>@twitter</td>
+                        <td>Universitas Negeri Jakarta</td>
+                        <td>
+                            Asymptotic Properties of Alternating Renewal Process with
+                            Instantaneous Rewards
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mathematics Education</th>
+                        <td>ABS-213</td>
+                        <td>@twitter</td>
+                        <td>Universitas Negeri Jakarta</td>
+                        <td>
+                            Web-based Pedagogical Content Knowledge for Teacher Professional
+                            Development: A Preliminary Study
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Computer Science</th>
+                        <td>ABS-14</td>
+                        <td>Muhammad Eka Suryana</td>
+                        <td>Universitas Negeri Jakarta</td>
+                        <td>
+                            Weakness of Active Contour Algorithm in Finding Wound Perimeter on
+                            Image Dataset and Its Solution
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Chemistry Education</th>
+                        <td>ABS-193</td>
+                        <td>Ella Fitriani</td>
+                        <td>Universitas Negeri Jakarta</td>
+                        <td>
+                            Australian and Indonesian Primary Students Engagement and
+                            Understanding of STEM Using the Markerspace: A Comparative Study
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Chemistry</th>
+                        <td>ABS-97</td>
+                        <td>Zarani Mat Taher</td>
+                        <td>Universiti Teknologi Malaysia</td>
+                        <td>
+                            Optimization, Scaling-up and establishment of herbal processing
+                            technology for the production of bioactive extracts from selected
+                            Malaysia medicinal plant
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- footer presenter -->
+        <div class="container pb-5">
+        <div class="container mt-5 sub-table">
+            <div class="h3 p-3">
+                Congratulations to all the best presenters, we will send a certificate
+                of appreciation to your email
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Important Date Section -->
+    <section id="important-date">
+        
+        <!-- Title -->
+            <div class="title-date container p-3">
+                <div class="row">
+                    <div class="col-11">
+                        <div class="h3 text-white p-3">
+                            Presented and accepted papers will be published in the American
+                            Institute of Physics (AIP) Proceeding indexed by Scopus.
+                        </div>
+                    </div>
+                    <div class="col-1">
+                        <img class="logo-title mt-3" src="media/asc.png" alt="" />
+                    </div>
+                </div>
+            </div>
+
+
+        <!-- Content -->
+            <div class="container mt-5">
+                <div class="row justify-content-between">
+                    <div class="col-8">
+                        <div class="container content-container-left p-5">
+                            <div class="h2">
+                                Emerging Post Pandemic Trends of Research and Education in
+                                Mathematics and Sciences
+                            </div>
+                            <p class="date-content">
+                                Covid 19 brings dramatic changes in all sectors of life.
+                                Education has changed with the distinctive rise of e-learning.
+                                Learning experiences during the pandemic are carried out with
+                                the concept of digital education undertaken on many platforms.
+                                Higher education is forced to accelerate the implementation of
+                                this online learning style. Although universities have e-
+                                learning ecosystems in place, yet these environments are mostly
+                                designed for blended learning. Predictions about movement in the
+                                post pandemic time, whether implementing the pre-existing models
+                                of blended learning or moving into a flexible and agile learning
+                                ecosystem in line with 5th industrial revolution are still a
+                                debatable issue. Constraints faced while learning from home,
+                                will provide experience in the implementation of post-pandemic
+                                education.
+                            </p>
+                            <p class="date-content">
+                                Education hasnt been the only field impacted by pandemic.
+                                Economy, health and human well-being were also suffering from
+                                it. research is needed to make feasible concrete ways of
+                                surviving. Unfortunately, the research pattern is disrupted due
+                                to the need of effort in being able to live side by side with
+                                the virus. Unpredicted noticeable huge innovations even appear
+                                which were never thought of before.
+                            </p>
+                            <p class="date-content">
+                                Science, mathematics and education play an important role in
+                                adapting to the new world in the post pandemic era. The third
+                                Science and Mathematics International Conference (SMIC) aims to
+                                bring together academics, scientists, students, and
+                                practitioners to share and discuss theoretical and practical
+                                knowledge, new trends and application in those fields related to
+                                post pandemic issues. The previous 1st and 2nd conference has
+                                brought huge success in aligning more than 6 countries
+                                participants in the events and delivering to international
+                                reputable book as well as proceeding.
+                            </p>
+                            <p class="date-content">
+                                3rd SMIC 2022 will be held on 7 September by Online Mode. The
+                                conference definitely provides ideal academic platform for
+                                researches to present their latest work in the emerging post
+                                pandemic trends of research and education in Mathematics and
+                                Sciences.
+                            </p>
+                            <p class="date-content">
+                                3rd SMIC 2022 will be held on 7 September by
+                                <span class="fw-bold">Online Mode.</span> The conference
+                                definitely provides ideal academic platform for researches to
+                                present their latest work in the emerging post pandemic trends
+                                of research and education in Mathematics and Sciences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-3 dates">
+                        <h4 class="text-center mt-4 text-danger">IMPORTANT DATES</h4>
+                        <ol class="list-group-numbered mt-3 fw-bold">
+                            <li class="list-group-item">Abstract submission deadline
+                                <p class="sub-dates">30 July 2022</p>
+                            </li>
+                            <li class="list-group-item">Abstract acceptance
+                                <p class="sub-dates">13 August 2022</p>
+                            </li>
+                            <li class="list-group-item">Early bird payment deadline
+                                <p class="sub-dates">5 August 2022</p>
+                            </li>
+                            <li class="list-group-item">Regular payment deadline
+                                <p class="sub-dates">20 August 2022</p>
+                            </li>
+                            <li class="list-group-item">Paper Submission deadline
+                                <p class="sub-dates">5 September 2022</p>
+                            </li>
+                            <li class="list-group-item">The Conference
+                                <p class="sub-dates">7 September 2022</p>
+                            </li>
+                            <li class="list-group-item">Paper acceptance
+                                <p class="sub-dates">14 October 2022</p>
+                            </li>
+                            <li class="list-group-item">Paper payment deadline
+                                <p class="sub-dates">31 October 2022</p>
+                            </li>
+                            <li class="list-group-item">Paper Review
+                                <p class="sub-dates">15 October - 19 November 2022</p>
+                            </li>
+                            <li class="list-group-item">Paper submission to AIP
+                                <p class="sub-dates">November 2022</p>
+                            </li>
+                            <li class="list-group-item">Predicted paper publish
+                                <p class="sub-dates">January 2023</p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Conference Scope Section -->
+    <section id="scope">
+        <!-- scope title -->
+        <div class="scope-title text-center mb-5 pt-4">
+            Conference Scope
+        </div>
+
+        <!-- container card -->
+        <div class="container row mx-auto">
+            <div class="col">
+                <div class="card mb-3 rounded-5" style="max-width: 18rem; height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title card-title-scope">Physics</h5>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Energy
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Theoretical Physics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Geophysics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Geophysics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Nuclear Physics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Instrumentation Physics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Medical Physics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Computational Physics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Environmental Physics
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot physics"></i>Physics Education
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 rounded-5" style="max-width: 18rem; height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title card-title-scope">Chemistry</h5>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Physical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Analytical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Organic Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Environmental Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Inorganic Chemistry
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Theoretical and Computational Chemistry
+
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Catalysis Process
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Chemistry Education
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 rounded-5" style="max-width: 18rem; height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title card-title-scope">Chemistry</h5>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Physical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Analytical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Organic Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Environmental Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Inorganic Chemistry
+            
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Theoretical and Computational Chemistry
+            
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Catalysis Process
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Chemistry Education
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 rounded-5" style="max-width: 18rem; height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title card-title-scope">Chemistry</h5>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Physical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Analytical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Organic Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Environmental Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Inorganic Chemistry
+            
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Theoretical and Computational Chemistry
+            
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Catalysis Process
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Chemistry Education
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mb-3 rounded-5" style="max-width: 18rem; height: 30rem;">
+                    <div class="card-body">
+                        <h5 class="card-title card-title-scope">Chemistry</h5>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Physical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Analytical Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Organic Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Environmental Chemistry
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Inorganic Chemistry
+            
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Theoretical and Computational Chemistry
+            
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Catalysis Process
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-dot chemistry"></i>Chemistry Education
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+
+    <!-- Keynote -->
+        
+        <!-- keynote title -->
+        <div class="mt-3">&nbsp;</div>
+
+        <div class="keynote-title text-center mt-5 mb-5">
+            KEYNOTE SPEAKERS
+        </div>
+        <div class="mb-3">&nbsp;</div>
+
+        <!-- keynote card -->
+        <div class="container">
+            <div class="container">
+                <div class="row justify-content-center text-center mt-5">
+                    <div class="col">
+                        <div class="card border-0 card-keynote" style="width: 18rem; height: 400px;">
+                            <img src="Media/prof1.png" class="card-img-top prof-img" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title card-title-keynote">Prof. Neil Dodgson, PhD</h5>
+                                <p class="card-subtitle text-dark">ICT</p>
+                                <p class="card-text keynote-desc">
+                                    Computer Graphics Department
+                                    
+                                    Victoria University of Wellington
+                                    
+                                    New Zealand
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 card-keynote" style="width: 18rem; height: 400px">
+                            <img src="Media/prof2.png" class="card-img-top prof-img" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title card-title-keynote">Ong Yann Shiou, PhD</h5>
+                                <p class="card-subtitle text-dark">SCIENCE EDUCATION</p>
+                                <p class="card-text keynote-desc">
+                                    Natural Sciences and Science Education Department
+                                    
+                                    Nanyang Technological University
+                                    
+                                    Singapore
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 card-keynote" style="width: 18rem; height: 400px">
+                            <img src="Media/prof3.png" class="card-img-top prof-img" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title card-title-keynote">Prof. Dr. Muktiningsih, M.Si​</h5>
+                                <p class="card-subtitle text-dark">CHEMISTRY</p>
+                                <p class="card-text keynote-desc">
+                                    Chemistry Education Department
+                                    
+                                    Universitas Negeri Jakarta
+                                    
+                                    Indonesia
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 card-keynote" style="width: 18rem; height: 400px">
+                            <img src="Media/prof4.png" class="card-img-top prof-img" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title card-title-keynote">Prof. Dr. Hesham Ali El-Enshasy</h5>
+                                <p class="card-subtitle text-dark">BIOPROCESS ENGINEERING</p>
+                                <p class="card-text mt-5">
+                                    Bioprocess Engineering Department
+                                    
+                                    University of Technology Malaysia
+                                    
+                                    Malaysia
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="btn btn-hero btn-lg mt-5">SHOW ALL SPEAKERS</div>
+        </div>
+    </section>
+
+    <!-- Workshop Section -->
+    <section id="workshop">
+
+        <!-- workshop title -->
+        <div class="workshop-title text-center patop">
+            WORKSHOP SPEAKERS
+        </div>
+        <p class="workshop-desc text-center w-50 mx-auto mt-3">
+            The workshop will be conducted on 27 August 2022 using a hybrid method. The venue will be at Hasjim Asjarie Building,
+            Faculty of Mathematics and Natural Sciences, Universitas Negeri Jakarta, Indonesia. Workshop participants are limited to
+            30 offline and 20 online participants.
+        </p>
+
+        <!-- workshop card -->
+        <div class="container mt-5">
+            <div class="row d-flex justify-content-center text-center">
+                <div class="col-3">
+                    <div class="card border-0 card-keynote" style="width: 18rem; height: 400px">
+                        <img src="Media/workshop1.png" class="card-img-top prof-img" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title card-title-workshop">Fauzan Khairi Che Harun, PhD</h5>
+                            <p class="card-subtitle text-dark subtitle-workshop">DESIGN THINKING</p>
+                            <p class="card-text mt-3 text-workshop">
+                                University of Technology Malaysia
+                            </p>
+                            <p class="card-text mt-3 text-workshop">
+                                Malaysia
+                            </p>
+                            <ul style="padding-left: 0px;">
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>Saturday, 27 August 2022
+                                </li>
+                                <li>
+                                    <i class="fas fa-stopwatch"></i>08.00- 12.00, Jakarta time
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card border-0 card-keynote" style="width: 18rem; height: 400px">
+                        <img src="Media/wordkshop2.png" class="card-img-top prof-img" alt="..." />
+                        <div class="card-body">
+                            <h5 class="card-title card-title-workshop">Dr. Bambang Heru, M.Si</h5>
+                            <p class="card-subtitle text-dark subtitle-workshop">BIOPROCESS ENGINEERING</p>
+                            <p class="card-text mt-3 text-workshop">
+                                Universitas Negeri Jakarta
+                            </p>
+                            <p class="card-text mt-3 text-workshop">
+                                Indonesia
+                            </p>
+                            <ul style="padding-left: 0px;">
+                                <li>
+                                    <i class="fa-solid fa-calendar-days"></i>Saturday, 27 August 2022
+                                </li>
+                                <li>
+                                    <i class="fas fa-stopwatch"></i>13.00- 17.00, Jakarta time
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+            <div class="container text-center pb-5">
+                <div class="btn btn-hero btn-lg mt-5 mx-auto">REGISTER HERE</div>
+            </div>
+
+            <div class="mabot">&nbsp;</div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer">
+        
+        <!-- Hero-footer -->
+    
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-4">
+                    <img src="Media/smics-footer.png" class="smics-img" alt="">
+                    <p class="footer-text mt-4">Sponsored by</p>
+                    <img src="Media/FA-PELINDO-LOGOWARNA-1-1.png" class="pelindo-img" alt="">
+                </div>
+                <div class="col-4">
+                    <div class="title-footer pt-5">
+                        <h5 class="footer-text">Venue</h5>
+                        <p>Jakarta – Indonesia</p>
+                    </div>
+                    <p class="footer-text">supported by</p>
+                    <img src="Media/supportby.png" class="supp-img" alt="">
+                </div>
+                <div class="col-4">
+                    <img src="Media/visitor.png" class="visit-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- Sub-footer -->
+        <div class="container-fluid sub-footer">
+            <p class="text-center text-white p-4">© 2022 SMIC UNJ . All rights reserved.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
